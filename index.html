@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="info">
+        <h1>ROCK PAPER SCISSORS GAME</h1>
+        <h2>By Ejiofor Celestine</h2>
+        <span class="player-container">
+          <h2>ROBOT</h2>
+          <h2>PLAYER</h2>
+        </span>
+        <span class="score">
+          <h3>0</h3>
+          <h3>0</h3>
+        </span>
+        <h2 id="won-round">Estarossa</h2>
+    </div>
+    <span class="stripe">
+        <h4>ROBOT'S CHOICE: NONE</h4>
+        <button>NEW GAME</button>
+    </span>
+    <div class="img-container">
+        <img
+        src="https://images.unsplash.com/photo-1507832321772-e86cc0452e9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        alt="Rock"
+        onclick="logic('Rock')"
+        />
+        <img
+        src="https://images.unsplash.com/photo-1597338770339-9860acd8406e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="Paper"
+        onclick="logic('Paper')"
+        />
+        <img
+        src="https://images.unsplash.com/photo-1503792501406-2c40da09e1e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
+        alt="Scissors"
+        onclick="logic('Scissors')"
+        />
+      </div>
+    </div>
+    <h2 id="overall-won"></h2>
+    <script src="script.js"></script>
+  </body>
+</html>
