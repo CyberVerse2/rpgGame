@@ -97,13 +97,39 @@ h3 {
     font-size: 2rem;
   }
   .info {
-    height: 520px;
+    height: 220px;
   }
   .info h2 {
     font-size: 1rem;
   }
   img {
     width: 150px;
+  }
+  button {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #3f5e5e;
+  }
+  .stripe h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .info {
+    height: 310px;
+  }
+  .info h2 {
+    font-size: 1rem;
+  }
+  img {
+    width: 120px;
   }
   button {
     font-size: 0.8rem;
