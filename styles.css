@@ -21,6 +21,7 @@ h3 {
 }
 
 h2:nth-of-type(1) {
+  font-size: 0.8rem;
   padding: 15px 0;
 }
 .info {
@@ -120,7 +121,7 @@ h3 {
 
 @media screen and (max-device-width: 480px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .info {
     height: 310px;
