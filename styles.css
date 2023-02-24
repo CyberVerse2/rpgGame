@@ -32,7 +32,9 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
-
+.player-container{
+  padding-top: 10px;
+}
 .score {
   font-size: 20px;
   padding: 5px;
@@ -120,13 +122,13 @@ h3 {
     font-size: 1.8rem;
   }
   .info {
-    height: 310px;
+    height: 250px;
   }
   .info h2 {
     font-size: 1rem;
   }
   img {
-    width: 120px;
+    width: 100px;
   }
   button {
     font-size: 0.8rem;
