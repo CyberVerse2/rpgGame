@@ -118,12 +118,12 @@ h3 {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-device-width: 480px) {
   h1 {
     font-size: 2rem;
   }
   .info {
-    height: 250px;
+    height: 310px;
   }
   .info h2 {
     font-size: 1rem;
